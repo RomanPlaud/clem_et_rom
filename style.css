@@ -1,10 +1,14 @@
 :root {
-    --primary-color: rgb(103, 78, 167);
-    /* Purple */
+    --primary-color: rgb(90, 30, 45);
+    /* Prune */
+    --primary-hover: rgb(110, 40, 55);
     --secondary-color: #fdfbf7;
     /* Ivory */
-    --accent-color: #bfa1ce;
-    /* Soft Purple */
+    --accent-color: rgb(159, 165, 41);
+    /* Vert olive */
+    --accent-hover: rgb(139, 145, 31);
+    --pink-color: rgb(250, 158, 188);
+    /* Rose */
     --text-color: #4a4a4a;
     --font-heading: 'Cinzel', serif;
     --font-body: 'Lato', sans-serif;
@@ -79,6 +83,7 @@ h3 {
     font-size: 2.5rem;
     font-weight: 700;
     font-family: var(--font-heading);
+    color: var(--pink-color);
 }
 
 /* Sections */
@@ -142,7 +147,7 @@ h3 {
 }
 
 .btn:hover {
-    background-color: rgb(80, 60, 130);
+    background-color: var(--primary-hover);
 }
 
 .btn-gold {
@@ -150,7 +155,7 @@ h3 {
 }
 
 .btn-gold:hover {
-    background-color: #9d7bb0;
+    background-color: var(--accent-hover);
 }
 
 /* Footer */
@@ -273,7 +278,7 @@ footer {
 }
 
 .btn-sm:hover {
-    background-color: rgb(80, 60, 130);
+    background-color: var(--primary-hover);
 }
 
 .instruction {
