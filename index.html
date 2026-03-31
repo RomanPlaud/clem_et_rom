@@ -41,13 +41,20 @@
         <div class="registry-container">
             <!-- Honeymoon Fund -->
             <div class="registry-block honeymoon">
-                <h3>Voyage de Noces</h3>
-                <p>Votre présence est notre plus beau cadeau. Si vous souhaitez participer à notre voyage de rêve, une
+                <h3>Participation Libre</h3>
+                <p>Votre présence est notre plus beau cadeau. Si vous souhaitez participer à notre voyage de noces, une
                     cagnotte est à votre disposition.</p>
                 <div class="actions">
                     <a href="https://paypal.me/romanplaud" class="btn btn-gold" target="_blank">Participation Libre</a>
-                    <a href="https://wa.me/33642565548?text=Hello%20Roman%20et%20Cl%C3%A9mence%2C%20quel%20est%20le%20RIB%20pour%20le%20mariage%20%3F"
-                        class="btn btn-outline" target="_blank">Demander par le RIB via WhatsApp</a>
+                    <button onclick="toggleRib()" class="btn btn-outline"
+                        style="cursor: pointer; font-family: inherit;">Afficher le RIB</button>
+                </div>
+                <div id="rib-info" class="rib-info"
+                    style="display: none; margin-top: 1.5rem; padding: 1.5rem; background-color: var(--secondary-color); border: 1px solid var(--accent-color); border-radius: 10px; text-align: center;">
+                    <p style="margin-bottom: 0.5rem; font-size: 1rem;"><strong>Bénéficiaire :</strong><br>Roman Plaud &
+                        Clémence Grislain</p>
+                    <p style="margin-bottom: 0; font-size: 1rem;"><strong>IBAN :</strong><br>FR76 2823 3000 0189 3631
+                        7686 653</p>
                 </div>
             </div>
 

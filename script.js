@@ -29,3 +29,12 @@ const x = setInterval(function () {
         document.getElementById("countdown").innerHTML = "Félicitations aux mariés !";
     }
 }, 1000);
+
+function toggleRib() {
+    const ribInfo = document.getElementById("rib-info");
+    if (ribInfo.style.display === "none" || ribInfo.style.display === "") {
+        ribInfo.style.display = "block";
+    } else {
+        ribInfo.style.display = "none";
+    }
+}
